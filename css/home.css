@@ -1,0 +1,489 @@
+@import url(../css/footer.css);
+@import url(../css/header.css);
+
+
+body {
+    width: 100%;
+}
+
+.carousel {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    background-color: #c2bcbc;
+}
+
+.carousel .slider {
+
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.carousel .slide {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.carousel .slide img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.btn:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btn-prev {
+    top: 45%;
+    left: 2%;
+}
+
+.btn-next {
+    top: 45%;
+    right: 2%;
+}
+
+.slogan {
+    background-image: url(../images/logo/panal3.jpg);
+    margin-bottom: 60px;
+    color: black;
+    font-family: url(../index/fuentes/Montserrat-ExtraBold.ttf);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    height: 250px;
+
+}
+
+.slogan p {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.slogan a {
+    margin-bottom: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: #FFF;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: rgba(79, 16, 188, 1);
+}
+
+
+.slogan a:hover {
+    color: #fff;
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.slogan p {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+
+.slogan-2 {
+    background-image: url(../images/logo/panal3.jpg);
+    margin-bottom: 60px;
+    color: black;
+    font-family: url(../index/fuentes/Montserrat-ExtraBold.ttf);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    height: 250px;
+
+}
+
+
+.slogan-2 a:hover {
+    color: #fff;
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.slogan-2 p {
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+.slogan-2 a {
+    margin-bottom: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: #FFF;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: rgba(79, 16, 188, 1);
+}
+
+
+
+
+/*# sourceMappingURL=carousel.css.map */
+
+
+/*# companias con las que trabajamos */
+
+
+
+.mastandrea {
+    max-width: 100%;
+    width: 100%;
+}
+
+.mastandrea img {
+
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    height: 250px;
+}
+
+.compañias h1 {
+    text-transform: uppercase;
+    font-family: url(../index/fuentes/Montserrat-ExtraBold.ttf);
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: #483f56;
+    font-weight: 300;
+}
+
+
+
+.compañias .card {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+/*# sourceMappingURL=compa.css.map */
+
+
+.container-siniestros {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 360px;
+
+}
+
+.forma {
+    height: 300px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+.container-siniestros a {
+
+    line-height: 35px;
+    font-size: 1.5rem;
+    font-size: 25px;
+    transition: 0.5s;
+    color: #FFF;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    top: 37%;
+    left: 50%;
+    position: absolute;
+    font-family: url(../index/fuentes/Montserrat-Bold.ttf);
+}
+
+.container-siniestros a:hover {
+    color: #FFF;
+
+}
+
+.container-siniestros iconify-icon {
+    bottom: 75%;
+    left: 47.5%;
+    position: absolute;
+}
+
+
+#segunda-linea {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.go-top-container {
+    position: fixed;
+    bottom: 4rem;
+    width: 6.6rem;
+    right: -2.2rem;
+    height: 6.6rem;
+    z-index: -1;
+}
+
+.go-top-button {
+    width: 0rem;
+    height: 0rem;
+    background: #2071B2;
+    border-radius: 50%;
+    transition: .2s;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+.go-top-button .boton-up {
+    position: absolute;
+    font-size: 3rem;
+    top: 10%;
+    left: 10%;
+    color: #FFF;
+
+}
+
+
+.show {
+    z-index: 10;
+}
+
+.show .go-top-button {
+    animation: popup .3s ease-in-out;
+    width: 60px;
+    height: 60px;
+    z-index: 11;
+}
+
+.show boton-up {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+    0% {
+        width: 0rem;
+        height: 0rem;
+    }
+
+    50% {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    100% {
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+}
+
+
+/*# razones para elegirnos */
+
+.elegirnos .razones {
+
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 5px;
+}
+
+.elegirnos .card {
+    height: 370px;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 25%;
+}
+
+.elegirnos .card h6 {
+    text-transform: uppercase;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    text-align: center;
+}
+
+.elegirnos .card img {
+    height: 230px;
+}
+
+.elegirnos .card p {
+    color: #141414;
+    font-family: url(../fuentes/Montserrat-ExtraBold.ttf);
+    text-align: center;
+}
+
+.elegirnos .card:hover {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+
+
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-formulario {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.logo-formulario span {
+    color: blueviolet;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20 0 rgba(255, 255, 255, .3);
+    border-radius: 25%;
+}
+
+
+.contact-form {
+    background: #22222222;
+}
+
+.contact-form form p {
+
+    margin: 0;
+    padding: 1em;
+}
+
+
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+
+.contact-form form input,
+.contact-form form textarea {
+
+    width: 100%;
+    padding: 1em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blueviolet;
+}
+
+.contact-form button {
+    margin-left: 300px;
+    width: 25%;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: blueviolet;
+    border-radius: 300px;
+    color: #FFF;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: blueviolet;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+
+@media (max-width: 414px) {
+    .mastandrea img {
+        max-width: 300px;
+    }
+
+
+}
